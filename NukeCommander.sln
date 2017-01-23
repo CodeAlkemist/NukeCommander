@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NukeCommander", "src\NukeCommander\NukeCommander.xproj", "{EC89851A-91AD-4C4B-B462-DC7A6FA5DE60}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CmdProcessor", "src\CmdProcessor\CmdProcessor.xproj", "{7E623430-377F-4355-9100-86AD31B89124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{EC89851A-91AD-4C4B-B462-DC7A6FA5DE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC89851A-91AD-4C4B-B462-DC7A6FA5DE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC89851A-91AD-4C4B-B462-DC7A6FA5DE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E623430-377F-4355-9100-86AD31B89124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E623430-377F-4355-9100-86AD31B89124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E623430-377F-4355-9100-86AD31B89124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E623430-377F-4355-9100-86AD31B89124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC89851A-91AD-4C4B-B462-DC7A6FA5DE60} = {6EB61ECC-D7B6-40CA-AB5F-E7F00D29FDBF}
+		{7E623430-377F-4355-9100-86AD31B89124} = {6EB61ECC-D7B6-40CA-AB5F-E7F00D29FDBF}
 	EndGlobalSection
 EndGlobal
